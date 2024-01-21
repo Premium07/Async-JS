@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+button{
+    padding: 10px 15px;
+    font-weight: 600;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: .98rem;
+    background: linear-gradient(60deg, cornflowerblue, rgb(72, 239, 72));
+}
+
+button:active{
+    scale: .98;
+}
